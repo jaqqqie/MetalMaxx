@@ -1,14 +1,19 @@
+html, body{
+  height: 100%;
+  scroll-behavior: smooth;
+}
 .index-header{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/yard.jpg");
-  width: 100%;
-  height: 500px;
+  height: 100%;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .header-text{
   color: white;
   text-align: center;
-  padding-top: 85px;
+  padding-top: 300px;
+  font-size: 50px;
   text-shadow: 3px 3px 5px black;
 }
 .nav-font-style a{
@@ -20,7 +25,7 @@
 }
 .sub-header-text{
   color: white;
-  font-size: 17px;
+  font-size: 22px;
   text-align: center;
   text-shadow: 3px 3px 5px black;
 }
@@ -28,19 +33,25 @@
   margin-left: auto;
   margin-right: auto;
 }
-img{
-  display: relative;
-  height: 200px;
-  width: 250px;
-  border-radius: 50%;
+.company-images{
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  box-shadow: 5px 5px 8px black;
 }
-div img h4{
-  text-align: center;
+.responsive {
+  height: auto;
 }
-
 #about-us{
   font-size: 20px;
 }
 #about-facebook{
   background: black;
+}
+#company-container{
+  background-image: linear-gradient(to bottom right, #800000, #4d0000);
+}
+#company-container h3{
+  color: white;
 }
