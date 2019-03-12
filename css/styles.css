@@ -19,9 +19,6 @@ html, body{
 .navbar{
   background-color: #333333;
 }
-.navbar a img{
-  margin: 0;
-}
 .nav-font-style a{
   color: #F6F6F6;
   font-size: 22px;
