@@ -16,22 +16,26 @@ html, body{
   font-size: 50px;
   text-shadow: 3px 3px 5px black;
 }
+.navbar{
+  background-color: #333333;
+}
+.navbar a img{
+  margin: 0;
+}
 .nav-font-style a{
-  color: white;
-  font-size: 20px;
+  color: #F6F6F6;
+  font-size: 22px;
+  width: 60%;
+  letter-spacing: 2px;
 }
 .nav-font-style a:hover{
-  color: red;
+  text-decoration: underline;
 }
 .sub-header-text{
-  color: white;
+  color: #F6F6F6;
   font-size: 22px;
   text-align: center;
   text-shadow: 3px 3px 5px black;
-}
-.faceshit{
-  margin-left: auto;
-  margin-right: auto;
 }
 .company-images{
   display: block;
@@ -40,8 +44,49 @@ html, body{
   width: 300px;
   box-shadow: 5px 5px 8px black;
 }
-.responsive {
-  height: auto;
+.company-types{
+  color: #F6F6F6;
+}
+.company-types-separator{
+  border: 1px solid white;
+  width: 60%;
+}
+.loc-page{
+  background-color: #333333;
+}
+.loc-header{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/yard.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+}
+.loc-body{
+  background-color: #E8E8E8;
+}
+.loc-body p1{
+  font-size: 35px;
+  color: #990100;
+  font-weight: bold;
+}
+.loc-body p3{
+  font-size: 20px;
+  color: #990100;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.facebook{
+  font-size: 40px;
+}
+.row-margin{
+  margin-top: 20px;
+}
+form input{
+  font-size: 20px;
+  color: #333333;
+  margin: 5px;
+  text-align: left;
 }
 #about-us{
   font-size: 20px;
@@ -53,5 +98,20 @@ html, body{
   background-image: linear-gradient(to bottom right, #800000, #4d0000);
 }
 #company-container h3{
-  color: white;
+  color: #F6F6F6;
+}
+#metal-brand{
+  font-size: 30px;
+}
+#loc-text{
+  font-size: 60px;
+  color: #F6F6F6;
+  position: relative;
+  text-align: center;
+  padding-top: 10%;
+}
+#loc-sub-text{
+  font-size: 25px;
+  color: #E8E8E8;
+  text-align: center;
 }
