@@ -80,6 +80,10 @@ html, body{
 .row-margin{
   margin-top: 20px;
 }
+ul li{
+  font-weight: bold;
+  font-size: 20px;
+}
 form input{
   font-size: 20px;
   color: #333333;
@@ -90,7 +94,7 @@ form input{
   font-size: 20px;
 }
 #company-container{
-  background-image: linear-gradient(to bottom right, #800000, #4d0000);
+  background-image: linear-gradient(#404040, #8c8c8c);
 }
 #company-container h3{
   color: #F6F6F6;
