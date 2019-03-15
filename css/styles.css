@@ -20,7 +20,7 @@ html, body{
 .navbar{
   background-color: #333333;
 }
-.nav-font-style a{
+.nav-font-style a, p{
   color: #F6F6F6;
   font-size: 22px;
   width: 60%;
@@ -89,6 +89,10 @@ form input{
   color: #333333;
   margin: 5px;
   text-align: left;
+}
+.col-centered{
+   float: none;
+   margin: 0 auto;
 }
 #about-us{
   font-size: 20px;
