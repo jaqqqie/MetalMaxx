@@ -94,6 +94,10 @@ form input{
    float: none;
    margin: 0 auto;
 }
+.carousel-item img{
+  height: 360px; 
+  width: 460px;
+}
 #about-us{
   font-size: 20px;
 }
