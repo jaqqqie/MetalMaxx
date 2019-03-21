@@ -53,7 +53,7 @@ html, body{
   background-color: #333333;
 }
 .loc-header{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/yard.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/yardpic.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,8 +95,16 @@ form input{
    margin: 0 auto;
 }
 .carousel-item img{
-  height: 360px; 
+  height: 360px;
   width: 460px;
+}
+.carousel-caption h5{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+.carousel-caption {
+  width: 100%;
+  left: 0;
 }
 #about-us{
   font-size: 20px;
