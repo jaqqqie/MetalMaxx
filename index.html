@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -12,11 +12,10 @@
   </head>
   <body>
     <!-- Container that holds the navigation bar, header image, header text -->
-    <nav class="navbar navbar-expand-lg nav-font-style fixed-top">
-      <div class="container-fluid">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg nav-font-style fixed-top">
         <a class="navbar-brand" id="metal-brand" href="index.html">
           <img src="images/logo.png" width="75" height="75" class="" alt="">
-          <p class="navbar-text">Hours: 7:15 - 3:15 | Phone: (817) 279-1800</p>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationbar"
           aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +27,17 @@
             <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
+        </nav>
       </div>
-    </nav>
     <div class="index-header" id="home">
       <div class="container-fluid">
         <h1 class="header-text"> MetalMaxx Recycling LLC </h1>
         <h3 class="sub-header-text"> 2504 W US HWY 377 Granbury, TX | (817) 279-1800 </h2>
+        <h3 class="sub-header-text d-block d-md-none"> Hours: 7:15 - 3:15 </h2>
       </div>
     </div>
     <!-- Container that holds the about us and facebook plugin -->
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-sm-block">
       <div class="row m-5">
         <div class="col-md-6 col-lg-6 text-center" style="border-style: solid; border-width: 3px;">
           <img src="images/logo2.png" class="company-images img-responsive" style="box-shadow: 0 0 0">
@@ -59,7 +59,7 @@
       </div>
     </div>
     <!-- Container that holds the companies we accept items from -->
-    <div class="container-fluid text-center" id="company-container">
+    <div class="container-fluid text-center d-none d-sm-block" id="company-container">
       <div class="row text-center">
         <div class="col-lg-12">
           <h3 class="m-5"> Materials we specialize in buying </h3>
@@ -261,7 +261,7 @@
         </div>
       </div>
     </div>
-    <div id="materials">
+    <div id="materials" class="d-none d-sm-block">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6 text-center">
@@ -301,7 +301,7 @@
       </div>
     </div>
     <!-- Contact Section -->
-    <div class="loc-page" id="contact">
+    <div class="loc-page d-none d-sm-block" id="contact">
       <div class="loc-header">
         <div class="container-fluid">
           <div class="row">
@@ -343,7 +343,7 @@
                 <i class="fab fa-facebook-square"></i>
               </a><h4>
               <h3> Shoot us an Email </h3><br>
-              <form action="mailto:jstidham4@hotmail.com" method="post" enctype="text/plain">
+              <form action="mailto:metalmaxxrecycling@gmail.com" method="post" enctype="text/plain">
                 <input type="text" name="First Name" placeholder="First Name" size="22">
                 <input type="text" name="Last Name" placeholder="Last Name" size="22"><br>
                 <input type="text" name="Email" placeholder="E-mail" size="22">
